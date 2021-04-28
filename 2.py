@@ -29,10 +29,16 @@ print("Employer's first salery (USD): ", employer1.salary)
 employer1.rise()
 print("Employer's new salary (USD): ", employer1.salary)
 
-employer2 = Employer("Elon", "Musk", 75000)
+employer2 = Employer("Elon", "Musk", 750000)
 employer3 = Employer("Tim", "Cook", 50000)
 employer4 = Employer("Craig", "Federighi", 35000)
 employer5 = Employer("Bill", "Gates", 70000)
+
+employer2.rise()
+employer3.rise()
+employer3.rise()
+employer4.rise()
+employer5.rise()
 
 list = [employer1, employer2, employer3, employer4, employer5]
 maxSalary = -1
